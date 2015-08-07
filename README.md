@@ -9,7 +9,7 @@ module.exports = {
 	module: {
 		preLoaders: [
 			{
-				test: /\.ts$/,				
+				test: /\.ts(x?)$/,				
 				loader: "tslint"
 			}
 		]
@@ -44,6 +44,8 @@ module.exports = {
 ``` shell
 npm install tslint-loader --save-dev
 ```
+## Tslint@next
+Uses tslint@next with typescript@next support
 
 ## License
 
